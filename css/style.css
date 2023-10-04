@@ -1123,7 +1123,7 @@ transform: all 0.5s;
           .header,
           .main,
           .footer__container{
-            padding: 0;
+            padding: 3.5em;
           }
     
           #home{
