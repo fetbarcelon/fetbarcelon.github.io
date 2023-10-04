@@ -882,7 +882,8 @@ transform: all 0.5s;
   .footer__title,
   .footer__subtitle,
   .footer__link,
-  .footer__social{
+  .footer__social,
+  .footer__copy{
     color: #FFF;
   }
    /* ===================== SCROLL UP ================== */
