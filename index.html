@@ -1,445 +1,488 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Stephania Cortes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta property="og:description" content="Stephania Co. Portfolio Website" >
+	<meta property="og:title" content="Stephania Co." >
+	<meta property="og:type" content="article" >
+	<meta property="og:image" content="https://fetbarcelon.github.io/images/favicon.png" >
+	<meta property="og:url" content="https://fetbarcelon.github.io/">
+	<meta name="author" content="Stephania Co." >
+
+	<link rel="Shortcut Icon" type="img/favicon" href="/images/Portfolio.png">
+
+	<link rel="image_src" href="images/LinkFavicon.jpg">
 
 
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <link
-        href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Condensed:wght@400;700&family=Roboto+Mono:wght@400;600&display=swap"
-        rel="stylesheet">
-    <!--  ICONS -->
-    <link rel="icon" href="assets/img/Portfolio.png">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-	<link rel="stylesheet" href="css/flaticon.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 
-    <!-- Argon CSS -->
-	<link rel="stylesheet" href="css/aos.css">
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-
-    <link rel="image_src" href="images/LinkFavicon.jpg">
-    <link rel="icon" href="images/favicon.png">
-    
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-    
-    
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
 	<!-- For Progress Bars -->
 	<link rel="stylesheet" href="css/css-circular-prog-bar.css">
-    
-    <!-- Personal Styling -->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Portfolio</title>
 </head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-<body>
-    <!---------------- HEADER ------------------>
-    <header class="header" id="header">
-        <nav class="nav container navbar-expand-lg">
-            <a href="#" class="nav__logo navbar-brand ml-3">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default"
-                aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                            <div class="container">
-                                <a class="navbar-brand" href="index.html">Portfolio</a>
-                                <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
-                                    data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="oi oi-menu"></span> Menu
-                                </button>
-                    
-                                <div class="collapse navbar-collapse" id="ftco-nav">
-                                    <ul class="navbar-nav nav ml-auto">
-                                        <li class="nav__item"><a href="#home" class="nav__link"><i class="uil uil-estate nav__icon"></i>Home</a></li>
-                                        <li class="nav__item"><a href="#about" class="nav__link"><i class="uil uil-estate nav__icon"></i>About</a></li>
-                                        <li class="nav__item"><a href="#projects" class="nav__link"><i class="uil uil-estate nav__icon"></i>Projects</a></li>
-                                        <li class="nav__item"><a href="#contact" class="nav__link"><i class="uil uil-estate nav__icon"></i>Contact</a></li>                                    
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>                    
-                </ul>
-                <i class="uil uil-times nav__close" id="nav-close"></i>
-            </div>
 
-            <div class="nav__btns">
-                <!-- THEME CHANGING BUTTONS -->
-                <i data-mode="dark" class="uil uil-moon moon-change-theme" id="theme-button"></i>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!--=================== MAIN  ==================-->
-    <main class="main">
-        <!---------------- HOME ------------------>
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__content grid">
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/stephania-cortes/" target="_blank" class="home__content grid" id="myLinkedIn">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                        <a href="https://github.com/fetbarcelon" target="_blank" class="home__content grid" id="myGithub">
-                            <i class="uil uil-github-alt"></i>
-                        </a>                       
-                    </div>                   
-                </div>
-                <div class="home__data">
-                    <h3 class="home__welcome s-color"> Hey! I'm </h3>
-                    <h1 class="home__title"> Stephania Cortes </h1>
-                    <h3 class="home__subtitle" id="home-bio">Unreal Game Programmer</h3>
-                    <div id="typewriter"></div>                    
-                </div>                
-            </div>            
-            <div class="home__scroll">
-                <a href="#about" class="home__scroll-button button--flex">
-                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                </a>
-            </div>
-        </section>
-        <!---------------- ABOUT ME ------------------>
-        <section class="about section" id="about">
-            <h2 class="section__title">About Me</h2>
-            <span class="section_subtitle"></span>
-            <div class="about__container container grid">
-                <img src="assets/img/astronaut_1.gif" class="about__img">
-                <div class="about__data">
-                    <p class="about__description" id="home-about">
-                        Hi there!
-                        Welcome to my portfolio! I am Stephania an addict to coding. I like to create immersive experiences that engage players and push the boundaries of what video games can achieve. Please take a look at my latest work featured within the projects section and check out my resume. Feel free to contact me if you have any questions.
-                    </p>
-                </div>
-                <div class="about__info">
-                    <div>
-                        <span class="about__info-title">Name <br> </span>
-                        <span class="about_info-name">Stephania Cortes</span>
-                    </div>
-                    <div>
-                        <span class="about__info-title">Current Living <br> </span>
-                        <span class="about_info-name">Montreal</span>
-                    </div>
-                    <div>
-                        <span class="about__info-title">Country <br> </span>
-                        <span class="about_info-name">Canada</span>
-                    </div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light site-navbar-target"
+		id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Portfolio</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
 
-                </div>
-                <div class="about__buttons">
-                    <a href="./assets/file/STEPHANIA_CORTES_CV.pdf" download="my_CV" target="_blank" class="button button--flex">
-                        Download CV
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!---------------- PROJECTS ------------------>               
-        <section class="projects section" id="projects">
-            <h2 class="section__title">Projects</h2>
-            <span class="section_subtitle"></span>
-            <span class="section_subtitle"></span>
-            <div class="projects__container container grid">
-                        <p>Some of my projects. Hover over each project to see more info</p>
-                    </div>
-                </div>    
-                <div class="row">
-                    <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a class="services-1 shadow" href="https://github.com/fetbarcelon/The-Secret"
-                        target="_blank" id="project-1">
-                            
-                            <div class="desc">
-                                <h3 class="mb-4">THE SECRET</h3>
-                                <p><strong>Unity | C #</strong></p>
-                                <p style="text-align: left;"> &RightArrow; Team project. <br> &RightArrow; Project done, by a team of 3 for the GE2023</p>                                
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a class="services-1 shadow" href="https://github.com/fetbarcelon/ArmoredAssault"
-                            target="_blank" id="project-2">
-                            <div class="desc">
-                                <h3 class="mb-4">ARMORED ASSAULT</h3>
-                                <p><strong>Blueprint | Unreal Engine 5</strong></p>
-                                <p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; Tasks: Engineered a teleportation system facilitating smooth transitions between distinct rooms, enhancing the game's immersive experience.<br> &RightArrow; Developed all game scripts and integrated them with game objects, ensuring seamless functionality and efficient performance.<br> &RightArrow; + other tasks.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a class="services-1 shadow" href="https://github.com/fetbarcelon/Lost"
-                            target="_blank" id="project-3">
-                            <div class="desc">
-                                <h3 class="mb-4"> LOST </h3>
-                                <p><strong>Blueprint | Unreal Engine 5</strong></p>
-                                <p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; Developed and optimized code modules crucial for game functionality, enhancing overall performance and user experience.<br> &RightArrow; Conducted comprehensive testing procedures and implemented validation protocols, ensuring the robustness and stability of the game's mechanics.<br> &RightArrow; + other tasks.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>    
-                <div class="row">
-                    <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a class="services-1 shadow" href="https://github.com/fetbarcelon/ZombieHorde"
-                            target="_blank" id="project-4">                           
-                            <div class="desc">
-                                <h3 class="mb-4">ZOMBIE HORDE</h3>
-                                <p><strong>Blueprint | Unreal Engine 5</strong></p>
-                                <p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; Developed game scripts and behaviors for zombies, enhancing gameplay dynamics. <br> &RightArrow; Managed post-processing effects for visual enhancements. <br> &RightArrow; + other tasks.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a class="services-1 shadow" href="https://github.com/fetbarcelon/BouncingBall"
-                            target="_blank" id="project-5">
-                            <div class="desc">
-                                <h3 class="mb-4">Bouncing Ball</h3>
-                                <p><strong>Unity | C #</strong></p>
-                                <p style="text-align: left;"> &RightArrow; Individual Project. <br> &RightArrow; A bullet game prototype. <br> &RightArrow;  Project done, for the GE2021 (1 month)</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a class="services-1 shadow" href="https://github.com/fetbarcelon/Terrain" target="_blank" id="project-6">
-                            <div class="desc">
-                                <h3 class="mb-4">Terrain</h3>
-                                <p><strong>Unity | C #</strong></p>
-                                <p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; Global
-                                    <strong></strong> roject done, for the GE2021 (1 month)</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-           
-            </div>
-        </section>                
-         <!---------------- CONTACT ------------------>
-         <section class="contact section" id="contact">
-            <div class="contact__container container grid">
-                <div class="row justify-content-center mb-4 pb-3">
-                    <div class="col-md-7 heading-section text-center ftco-animate">
-                        <h2 class="mb-4">Contact Me</h2>
-                    </div>
-                </div>            
-                            <div class="row d-flex justify-content-center contact-info mb-5">
-                        
-                                <div class="col-md-6 col-lg-4 d-flex ftco-animate">
-                                    <div class="align-self-stretch box text-center p-4 shadow">
-                                        <div>
-                                            
-                                            <h3 class="mb-4"><span class="uil-navigator"></span></h3>
-                                            <p><a href="mailto:fetbarcelon@gmail.com">fetbarcelon@gmail.com</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                                    <div class="align-self-stretch box text-center p-4 shadow">
-                                        <div>
-                                            <h3 class="mb-4"><i class="uil-github"></i></h3>
-                                            <p><a href="https://github.com/fetbarcelon" target="_blank">steph .</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>                            
-                    <div class="row no-gutters block-9">
-                        <div class="col-md-6 order-md-last d-flex">
-                            <form method="POST" action="https://formspree.io/f/xaylvywv"
-                            class="bg-light p-4 p-md-5 contact-form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea id="" cols="30" rows="7" class="form-control" name="message" placeholder="Message"
-                                required></textarea>
-                            </div>            
-                            <div class="form-group">
-                                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-                            </div>
-                        </form>                                        
-                        <img src="assets/img/Test.png" class="contact__img">
-                    </div>
-                </div>                        
-                    </div>
-                </div>
-        </section>      
-    </main>
-    <!---------------- FOOTER------------------>
-    
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- particles -->
+	<div id="particles-js"></div>
+
+	<section class="hero-wrap js-fullheight">
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+					<div class="text text-center">
+						<span class="subheading">Hey! I am</span>
+						<h1>Stephania Cortes</h1>
+						<h2>
+							Programmer <br>
+							<!-- Typing Carousel -->
+							<span class="txt-rotate" data-period="2000"
+								data-rotate='["C + +", "C #", "Unity", "Unreal Engine", "S Q L", ".Net", "WinForm", "Angular"]'></span>
+						</h2>
+					</div>
+				</div>
+			</div>
+		
+	</section>
+
+	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<div class="col-md-6 col-lg-6 d-flex">
+					<div class="img-about img d-flex align-items-stretch">
+						<div class="overlay"></div>
+						<div class="img d-flex align-self-stretch align-items-center"
+							style="background-image:url(images/about.png); filter:blur(1px) opacity(0.8)">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+					<div class="row justify-content-start pb-3">
+						<div class="col-md-12 heading-section ftco-animate">
+							<h2 class="mb-4">About Me</h2>
+							<p>Hi there! <br> Welcome to my portfolio! I'm Stephania, passionate about coding. 
+                                I thrive on tackling significant challenges that make a difference in people's 
+                                lives. Please take a look at my latest work featured within the projects section 
+                                and check out my resume.
+								Feel free to contact me if you have any questions.</p>
+							<ul class="about-info mt-4 px-md-0 px-2">
+								<li class="d-flex"><span>Name:</span> <span>Stephania Cortes</span></li>
+								<li class="d-flex"><span>Country: </span> <span>Canada</span></li>
+								<li class="d-flex"><span>City: </span> <span>Montreal</span></li>
+							</ul>
+						</div>
+					</div>
+					<!-- DOWNLOAD CV BUTTON -->
+					<div class="counter-wrap ftco-animate d-flex mt-md-3">
+						<div class="text">
+							<p><a href="https://www.linkedin.com/in/stephania-cortes/" target="_blank"
+									class="btn btn-primary py-3 px-3">Check Resume</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- resume-section -->
+<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<nav id="navi">
+					<ul>
+						<li><a href="#page-1">Education</a></li>
+						<li><a href="#page-2">Experience</a></li>
+						<li><a href="#page-3">Skills</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-md-9">
+
+				<div id="page-1" class="page one">
+					<h2 class="heading">Education</h2>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="fas fa-graduation-cap"></span>
+						</div>
+						<div class="text pl-3">
+							<h2>LaSalle College Montreal</h2>
+							<span class="position">
+								<ul>
+									<li>Diploma of College Studies (D.E.C) in Computer Science</li>
+									<li>Video Game Programming</li>
+								</ul>
+							</span>
+						</div>
+					</div>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="fas fa-book"></span>
+						</div>
+						<div class="text pl-3">
+							<h2>Autonoma de Occidente University</h2>
+							<span class="position">
+								<ul>
+									<li>Bachelor Degree in Graphic Designer Communication</li>
+								</ul>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div id="page-2" class="page two">
+					<h2 class="heading">Experience</h2>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="fas fa-gamepad"></span>
+						</div>
+						<div class="text pl-3">
+							<a href="https://www.cdugame.net/" target="_blank">
+							<h2 class="d-flex">CDU Game Studios Inc.</a>
+							</h2>
+							<span class="position">Game Programmer<br>Intern</span>
+							<p class="date">October 2023 - December 2023</p>
+							<ul>
+								<li>Assisted senior developers and designers in game development, ensuring timely completion of milestones.</li>
+								<li>Implemented game features and .<strong>UI design using Blueprint, </strong> enhancing player engagement.</li>
+								<li>Documented code changes and development progress for effective team communication.</li>
+							</ul>
+						</div>
+					</div>					
+				</div>
+				<div id="page-3" class="page three">
+					<h2 class="heading">Skills</h2>
+					<!-- Skill Icons Start -->
+					<div class="row mb-4 ftco-animate img">
+						<div class="col grow"><img class="img-fluid" src="images/skills/cplusplus.png" title="C++"></div>
+						<div class="col grow"><img class="img-fluid" src="images/skills/python.png" title="Python"></div>
+						<div class="col grow"><img class="img-fluid" src="images/skills/csharp.png" title="C#">	</div>
+						<div class="col grow"><img class="img-fluid" src="images/skills/unity.png" title="Unity"></div>
+						<div class="col grow"><img class="img-fluid" src="images/skills/unreal.png" title="Unreal Engine"></div>
+						<div class="col grow"><img class="img-fluid" src="images/skills/dotnetcore.png" title=".NET Core"></div>
+					</div>
+					<div class="row mb-4 ftco-animate">
+						<div class="col grow"><img class="img-fluid" src="images/skills/javascript.png" title="JavaScript"></div>
+						<div class="col grow"><img class="img-fluid" src="images/skills/html.png" title="HTML"></div>
+						<div class="col grow"><img class="img-fluid" src="images/skills/css.png" title="CSS"></div>						
+						<div class="col grow"><img class="img-fluid" src="images/skills/sql.png" title="SQL"></div>
+						<div class="col grow"><img class="img-fluid" src="images/skills/gamedev.png" title="Game Development"></div>
+						<div class="col grow"><img class="img-fluid" src="images/skills/agile.png" title="Agile / Scrum"></div>
+					</div>											
+				</div>
+			</div>			
+		</div>
+	</div>
+</div>
+</section>
+<br><br><br><br>
+<section class="ftco-section ftco-hireme img" style="background-image: url(images/bg.jpg)">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row justify-content-center">			
+		</div>
+	</div>
+</section>
+<!-- project-section -->
+	<section class="ftco-section" id="project-section">
+		<div class="container-fluid px-md-5">
+			<div class="row justify-content-center py-5 mt-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Projects</h2>
+					<p>Some of my projects</p>
+					<p>Hover over each project to see more info</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow" href="https://github.com/fetbarcelon/" target="_blank"
+						id="project-7">						
+						<div class="desc">
+							<h3 class="mb-4">C + +</h3>
+							<p><strong> C + + </strong></p>
+							<p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; </p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow" href="https://github.com/fetbarcelon/"
+						target="_blank" id="project-8">						
+						<div class="desc">
+							<h3 class="mb-4">C + + </h3>
+							<p><strong> C + +</strong></p>
+							<p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; Tasks: .</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow" href="https://github.com/fetbarcelon/"
+						target="_blank" id="project-9">
+						<div class="desc">
+							<h3 class="mb-4"> C + + </h3>
+							<p><strong> C + + </strong></p>
+							<p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; Developed and optimized code modules crucial for game functionality, enhancing overall performance and user experience.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow" href="https://github.com/fetbarcelon/The-Secret"
+						target="_blank" id="project-1">
+						<div class="desc">
+							<h3 class="mb-4">The Secret</h3>
+							<p><strong>Unity | C #</strong></p>
+							<p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; Project done, by a team of 3 for the GE2023.</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow" href="https://github.com/fetbarcelon/ArmoredAssault"
+						target="_blank" id="project-2">
+						<div class="desc">
+							<h3 class="mb-4">ARMORED ASSAULT</h3>
+							<p><strong>Blueprint | Unreal Engine 5</strong></p>
+							<p style="text-align: left;"> &RightArrow;  <br> &RightArrow; Individual Project. <br> &RightArrow; Tasks: Engineered a teleportation system facilitating smooth transitions between distinct rooms, enhancing the game's immersive experience.<br> &RightArrow; Developed all game scripts and integrated them with game objects, ensuring seamless functionality and efficient performance.<br> &RightArrow; + other tasks.</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow" href="https://github.com/fetbarcelon/Lost" target="_blank" id="project-3">
+						<div class="desc">
+							<h3 class="mb-4">LOST</h3>
+							<p><strong>Blueprint | Unreal Engine 5</strong></p>
+							<p style="text-align: left;"> &RightArrow; Individual project.<br> &RightArrow; Developed and optimized code modules crucial for game functionality, enhancing overall performance and user experience.<br> &RightArrow; Conducted comprehensive testing procedures and implemented validation protocols, ensuring the robustness and stability of the game's mechanics.<br> &RightArrow; + other tasks.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow" href="https://github.com/fetbarcelon/ZombieHorde"
+						target="_blank" id="project-4">
+						<div class="desc">
+							<h3 class="mb-4">ZOMBIE HORDE</h3>
+							<p><strong>Blueprint | Unreal Engine 5</strong></p>
+							<p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; Developed game scripts and behaviors for zombies, enhancing gameplay dynamics. <br> &RightArrow; Managed post-processing effects for visual enhancements. <br> &RightArrow; + other tasks.
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow" href="https://github.com/fetbarcelon/BouncingBall"
+						target="_blank" id="project-5">
+						<div class="desc">
+							<h3 class="mb-4"> Bouncing Ball</h3>
+							<p><strong>Unity | C #</strong></p>
+							<p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow;&RightArrow; Individual Project.<br> &RightArrow;  Project done, for the GE2023</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center d-flex ftco-animate">
+					<a class="services-1 shadow" href="https://github.com/fetbarcelon/Terrain"
+						target="_blank" id="project-6">
+						<div class="desc">
+							<h3 class="mb-4"> Terrain</h3>
+							<p><strong>Unity | C #</strong></p>
+							<p style="text-align: left;"> &RightArrow; Individual project. <br> &RightArrow; Project done, for the GE2023</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Contact us -->
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-4 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Contact Me</h2>
+				</div>
+			</div>
+
+			<div class="row d-flex justify-content-center contact-info mb-5">
+				
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="fas fa-envelope"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Email Address</h3>
+							<p><a href="mailto:fetbarcelon@gmail.com">fetbarcelon@gmail.com</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="fab fa-github"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Github</h3>
+							<p><a href="https://github.com/fetbarcelon" target="_blank">stephania-co</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row no-gutters block-9">
+				<div class="col-md-6 order-md-last d-flex">
+					<form method="POST" action="https://formspree.io/f/xaylvywv"
+						class="bg-light p-4 p-md-5 contact-form">
+						<div class="form-group">
+							<input type="text" class="form-control" name="name" placeholder="Your Name" required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" name="email" placeholder="Your Email" required>
+						</div>
+						<div class="form-group">
+							<textarea id="" cols="30" rows="7" class="form-control" name="message" placeholder="Message"
+								required></textarea>
+						</div>
+
+						<div class="form-group">
+							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6 d-flex">
+					<div class="img"
+						style="background-image: url(images/about1.jpg); background-position: left; filter:blur(1px) opacity(0.8)">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
 	<footer class="ftco-footer ftco-section">
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-
 						<h2 class="ftco-heading-2">About</h2>
 						<p class="mt-4"><u>Social Links</u></p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft">
 							<li class="ftco-animate">
-                                <a href="https://github.com/fetbarcelon" target="_blank"><span
-                                    class="uil uil-github-alt"></span></a>
-                        </li>
-                        <li class="ftco-animate">
-                            <a href="https://www.linkedin.com/in/stephania-cortes" target="_blank"><span
-                                    class="uil uil-linkedin-alt"></span></a>
-                        </li>
-                        <li class="ftco-animate">
-                            <a href="https://fetbarcelon.github.io/" target="_blank"><span class=" uil-globe"></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <h2 class="ftco-heading-2">Links</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#home"><span class="uil-arrow-right"></span>Home</a></li>
-                        <li><a href="#about"><span class="uil-arrow-right"></span>About</a></li>
-                        </li>                        
-                        <li><a href="#contact"><span class="uil-arrow-right"></span>Contact</a>
-                        </li>
-                        <li><a href="#projects"><span class="uil-arrow-right"></span>Projects</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Have a Question?</h2>
-                    <div class="block-23 mb-3">
-                        <ul>
-                            <li><a href="mailto:fetbarcelon@gmail.com"><span class="uil-navigator"></span><span
-                                        class="text">fetbarcelon@gmail.com</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p class="mt-5">Copyright &copy;
-                    <script>document.write(new Date().getFullYear());</script>
-                    |Stephania Cortes
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
+								<a href="https://github.com/fetbarcelon" target="_blank"> <span class="fab fa-github"></span></a>
+							</li>
+							<li class="ftco-animate">
+								<a href="https://www.linkedin.com/in/stephania-cortes/" target="_blank"><span class="fab fa-linkedin"></span>
+								</a>
+							</li>
+							<li class="ftco-animate">
+								<a href="ttps://fetbarcelon.github.io/" target="_blank"><span class="fas fa-globe"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2">Links</h2>
+						<ul class="list-unstyled">
+							<li><a href="#home-section"><span class="fas fa-arrow-right"></span> Home</a></li>
+							<li><a href="#about-section"><span class="fas fa-arrow-right"></span> About</a></li>
+							<li><a href="#resume-section"><span class="fas fa-arrow-right"></span> Resume</a></li>
+							<li><a href="#project-section"><span class="fas fa-arrow-right"></span> Projects</a></li>
+							<li><a href="#contact-section"><span class="fas fa-arrow-right"></span> Contact</a></li>
+						</ul>
+					</div>
+				</div>
 
-<!-- 
-    <footer class="footer">
-        <div class="footer__bg">
-            <div class="">
-                <h1 class="footer__title"> Stephania</h1>
-                <span class="footer__subtitle">Game Programmer</span>
-            </div>
-            <ul class="footer__links">
-                <li>
-                    <a href="#about" class="footer__link">About Me</a>
-                </li>
-                <li>
-                    <a href="#contact" class="footer__link">Contact</a>                   
-                </li>
-                <li>
-                    <a href="#projects" class="footer__link">Projects</a>
-                </li>
-                <li>
-                    <a href="https://fetbarcelon.github.io/" class="footer__link">
-                        <i class="uil uil-scenery nav__icon"></i>Portfolio</a>                  
-                </li>
-            </ul>
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/stephania-cortes/" target="_blank" class="footer__social" id="myLinkedIn">
-                    <i class="uil uil-linkedin-alt"></i>
-                </a>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Have a Question?</h2>
+						<div class="block-23 mb-3">
+							<ul>							
+								<li><a href="mailto:fetbarcelon@gmail.com"><span class="fas fa-envelope"></span><span
+											class="text">fetbarcelon@gmail.com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p class="mt-5">Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script>
+						| Stephania Cortes
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-                <a href="https://github.com/fetbarcelon" target="_blank" class="footer__social" id="myGithub">
-                    <i class="uil uil-github-alt"></i>
-                </a>               
-            </div>
-            <p class="footer__copy">&#169;RX. All rights reserved</p>
-        </div>
-    </footer> -->
-   
- <!---------------- SCROLL BAR ------------------>
-<a href="#home" class="scrollup" id="scroll-up">
-    <i class="uil uil-arrow-up"></i>
-</a>
 
-    <!-- Core -->
-    <script src="js/core/jquery.min.js"></script>
-    <script src="js/core/popper.min.js"></script>
-    <script src="js/core/bootstrap.min.js"></script>
 
-    <!-- Argon JS -->
-    <script src="js/argon-design-system.js"></script>
-    <!-- Typewriter CSS Effect -->
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Self Script-->
-    <script src="js/script.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<!-- <script src="js/popper.min.js"></script> -->
+	<!-- <script src="js/bootstrap.min.js"></script> -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
 
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+	<script src="js/particles.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script src="js/main.js"></script>
+
 </body>
 
 </html>
