@@ -9775,23 +9775,23 @@ textarea.form-control {
 }
 
 #project-1:hover{
-  background-image: url("../images/projects/ArmoredAssault.png") !important;
+  background-image: url("../images/projects/TheSecret.png") !important;
 }
 
 #project-2:hover{
-  background-image: url("../images/projects/BouncingBall.png") !important;
+  background-image: url("../images/projects/ArmoredAssault.png") !important;
 }
 
 #project-3:hover{
-  background-image: url("../images/projects/C++_logo.png") !important;
-}
-
-#project-4:hover{
   background-image: url("../images/projects/Lost.png") !important;
 }
 
+#project-4:hover{
+  background-image: url("../images/projects/ZombieHorde.png") !important;
+}
+
 #project-5:hover{
-  background-image: url("../images/projects/Pac-Man.jpg") !important;
+  background-image: url("../images/projects/BouncingBall.png") !important;
 }
 
 #project-6:hover{
@@ -9799,15 +9799,15 @@ textarea.form-control {
 }
 
 #project-7:hover{
-  background-image: url("../images/projects/Test.png") !important;
+  background-image: url("../images/projects/Pac-Man.jpg") !important;
 }
 
 #project-8:hover{
-  background-image: url("../images/projects/TheSecret.png") !important;
+  background-image: url("../images/projects/C++_logo.png") !important;
 }
 
 #project-9:hover{
-  background-image: url("../images/projects/ZombieHorde.png") !important;
+  background-image: url("../images/projects/C++_logo.png") !important;
 }
 
 .services-1:hover .icon, .services-1:hover .desc{
